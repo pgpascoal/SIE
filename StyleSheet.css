@@ -1,0 +1,126 @@
+/*---------------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+}
+
+p{
+  font-size: 18px;
+  padding-right: 20px;
+  padding-left: 220px;
+}
+
+/*HEADER & MENU*/
+.background_image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.background_image img {
+    width: 100%; 
+    height: auto; 
+}
+.topnav {
+  position: fixed;
+  overflow: hidden;
+  background-color: rgba(238,146,161,255);
+  font-family: Calibri;
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 0;
+  width: 2cm;
+}
+.topnav a:hover {
+  background-color: rgba(246,194,203,255);
+  color: black;
+}
+.topnav a.active {
+  background-color: rgba(246,194,203,255);
+  color: black;
+}
+/*END*/
+
+/*------------------------------*/
+
+/*Text and image*/
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*END*/
+
+/*Text and image*/
+* {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*END*/
+
+/*FOOTER*/
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(238,146,161,255);
+  color: black;
+}
+/*END*/
+
+
+#contact {
+  font-family: Calibri;
+  border-collapse: collapse;
+  width: 60%;
+  transform: translateY(100%);
+}
+
+#contact td, #contact th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-weight: bold;
+  background-color: rgba(246,194,203,255);
+}
+
+#contact tr:nth-child(even){background-color: rgba(246,194,203,255);}
+
+#contact tr:hover {background-color: rgba(246,194,203,255);}
+
+#contact th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(238,146,161,255);
+  color: black;
+}
